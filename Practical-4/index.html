@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .top{
+            width: 100%;
+            height: 150px;
+            background-color: rgb(5, 5, 83);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .top h1,h2{
+            color: white;
+        }
+        nav{
+            width: 100%;
+            height: 30px;
+            background-color: rgb(3, 3, 60);
+            display: flex;
+            justify-content: center;
+
+        }
+        nav .sub{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        nav .sub a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav .sub a:hover {
+            color: whitesmoke ; /* changes text color */
+            text-decoration: underline; /* underline on hover */
+            transform: scale(1.1); /* slightly zoom */
+        }
+        .Vision{
+            width: 98%;
+            height: 100px;
+            border: 1px solid gray;
+            margin-left: 1%;
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .Mission{
+            width: 98%;
+            height: 130px;
+            border: 1px solid gray;
+            margin-left: 1%;
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .M1{
+            width: 90%;
+            margin-left: 1%;
+
+        }
+        .PSO{
+            width: 98%;
+            height: 130px; 
+            border: 1px solid gray;
+            margin-left: 1%;
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .p1{
+            width: 90%;
+            margin-left: 1%;
+
+        }
+          .Courses{
+            width: 98%;
+            height: 130px; 
+            border: 1px solid gray;
+            margin-left: 1%;
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .c1{
+            width: 90%;
+            margin-left: 1%;
+
+        }
+        .Image{
+            width: 98%;
+            height: 130px;
+            border: 1px solid gray;
+            margin-left: 1%; 
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .i1{
+            width: 90%;
+            margin-left: 1%;
+        }
+        .Recruiters{
+            width: 98%;
+            height: 130px;
+            border: 1px solid gray;
+            margin-left: 1%; 
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .r1{
+            width: 90%;
+            margin-left: 1%;
+        }
+        footer{
+            width: 100%;
+            height: 40px;
+            background-color: rgb(3, 3,60);
+            text-align: center;
+            margin-top: 12px;
+            padding: 10px;
+        }
+        footer .p{
+            margin: 0;
+            color: white;
+            font-size: 14px;;
+        }
+           
+        
+        @media(max-width:1400px){
+            nav{
+                height: 50px;
+            }
+            nav .sub{
+                width: 100%;
+            }
+            .sub a{
+                font-size: 10px;
+            }
+            .Vision{
+                height: auto;
+            }
+            
+        }
+        @media(max-width:1200px){
+            nav{
+                height: 50px;
+            }
+            nav .sub{
+                width: 100%;
+            }
+            .sub a{
+                font-size: 10px;
+            }
+            .Vision{
+                height: auto;
+            }
+            
+        }
+        @media(max-width:980px){
+            nav{
+                height: 50px;
+                
+            }
+            nav .sub{
+                width: 100%;
+            }
+            .sub a{
+                font-size: 10px;
+            }
+            .Vision{
+                height: auto;
+            }
+            
+        }
+        @media(max-width:720px){
+            nav{
+                height: 50px;
+            }
+            nav .sub{
+                width: 100%;
+            }
+            .sub a{
+                font-size: 10px;
+            }
+            .Vision{
+                height: auto;
+            }
+            
+        }
+        @media(max-width:576px){
+            nav{
+                height: 50px;
+            }
+            nav .sub{
+                width: 100%;
+            }
+            .sub a{
+                font-size: 10px;
+            }
+            .Vision{
+                height: auto;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>Marwadi University</h1>
+        <h2>Department of Computer Engineering</h2>
+    </div>
+    <nav>
+     <div class="sub">
+      <a href="">Vision</a>
+      <a href="">Mission</a>
+      <a href="">Program Specific Outcome</a>
+      <a href="">Course Offered</a>
+      <a href="">Top Recruiters</a>
+     </div>
+    </nav>
+    <div class="Vision">
+        <h1>Vision</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa exercitationem tenetur, nobis reiciendis corporis quia consequatur fugiat qui, repellendus iste tempore magni et consectetur, veritatis quidem voluptates quis blanditiis ipsam.
+    </div>
+    <div class="Mission">
+        <h1>Mission</h1>
+      <div class="M1">
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="PSO">
+        <h1>Program Specific Outcome</h1>
+        <div class="p1">
+        <ol>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ol>
+            </div>
+    </div>
+       <div class="Courses">
+        <h1>Courses Offered</h1>
+        <div class="c1">
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+            </div>
+        </div>
+         <div class="Image">
+             <h1>Image Gallery of Events</h1>
+           <div class="i1">
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+            </div>
+        </div>
+        <div class="Recruiters">
+             <h1>Top Recruiters</h1>
+           <div class="r1">
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+            </div>
+            </div>
+        <footer>
+            <p class="p" >&copy; Marwadi University Department of Computer Engineering</p>
+        </footer>
+</body>
+</html>
